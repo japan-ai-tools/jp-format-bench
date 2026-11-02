@@ -41,10 +41,11 @@ No model results are published yet. We only publish numbers we measured ourselve
 - Holidays: the dataset uses 2025 and 2026 only (officially announced). The rules cover 2022–2030; tests compare 2025 and 2026 with the Cabinet Office lists
 - Business days: Monday–Friday minus national holidays. Year-end company closures are not counted as holidays
 - Corporate Number: check digit only. It does not tell you whether the company exists
+- This is a test set for AI systems. It is not tax, accounting or legal advice
 
 Related work: [Can Language Models Handle a Non-Gregorian Calendar?](https://arxiv.org/abs/2509.04432) (wareki only). This bench adds holidays, business days, Corporate Numbers and width.
 
-To make an agent pass these, give it a rule-based tool instead of asking it to guess. [nexus-ja-data](https://github.com/ayatrader/nexus-ja-data) is one such MCP server (MIT).
+To make an agent pass these, give it a rule-based tool instead of asking it to guess. [nexus-ja-data](https://github.com/japan-ai-tools/nexus-ja-data) is one such MCP server (MIT).
 
 Python 3.9+, no dependencies, no network access. MIT license.
 
