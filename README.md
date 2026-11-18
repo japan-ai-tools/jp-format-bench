@@ -66,3 +66,10 @@ Python 3.9+, no dependencies, no network access. MIT license.
 使い方は上の「Run it」。各AIの結果は、自分で測った数字だけを日付・モデル名つきで載せます(まだありません)。
 
 ライセンス: MIT
+
+
+## Related tool from the same author
+
+- This bench checks only the check digit of an invoice number (T + 13 digits). Whether that number is still registered is a different question: [invoice-watch](https://github.com/japan-ai-tools/invoice-watch) compares a supplier list with the NTA's published data and reports only the suppliers whose registration was cancelled, expired or renamed.
+
+関連(同じ作者): このテスト集が見るのは登録番号の検査用数字だけです。その番号が今も登録されているかは、[取引先インボイス見張り(invoice-watch)](https://github.com/japan-ai-tools/invoice-watch) が取引先の一覧と国税庁の公表データを照らして、取消・失効・名称の変化だけを知らせます。
